@@ -1,0 +1,42 @@
+@import "./varebal";
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin:0px  100px ;
+    .logo{
+        width: 100px;
+    }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            width: 366px;
+        }    
+        input{
+            width: 280px;
+            height: 44px;
+            border-radius: 20px;
+            border: none;
+        }
+        button{
+            border-radius: 20px;
+            width: 203px;
+            height: 44px;
+            color:white ;
+            background: #003459;
+            margin-left: 1rem;
+            border: none;
+            &:nth-child(2){
+                background-color: $kok;
+            }
+        }
+        .lupa{
+            display: none;
+        }
+        .drop{
+            display: none;
+        }
+}

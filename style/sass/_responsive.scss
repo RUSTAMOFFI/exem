@@ -1,0 +1,163 @@
+@media screen and (max-width:850px) {
+    .continer{
+        width: 849px;
+       
+
+        .navbar p{
+            display: none;
+        }
+        .logo{
+            margin: auto;
+        }
+
+        .lupa{
+            display: block;
+        }
+        .drop{
+            display: block;
+        }
+        .menu{
+            display: none;
+        }
+        form{
+            display: none;
+        }
+        .head{
+            display: flex;
+            flex-direction: column;
+        }
+        .matn{
+            margin: auto;
+            .bb{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+       
+            .sec-1{
+            width:550px;
+            }
+            .c
+               .card{
+                display: flex;
+                flex-wrap: wrap;
+            .tema{
+            margin: 0px auto;
+            }
+        }
+        .sec-2{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 550px;
+            text-align: center;
+            .rasm-2{
+                display: block;
+            }
+            .matn-2{
+                display: flex;
+                
+            }
+          
+        }
+            }
+            .bb-3{
+                margin-top: 30px;
+            }sec-3{
+            display: flex;
+            justify-content: center;
+            width:550px;
+            }
+            .c
+               .card{
+                display: flex;
+                flex-wrap: wrap;
+            .tema{
+            margin: 0px auto;
+            }
+      }
+        }
+
+        
+    
+
+@media screen and (max-width:451px) {
+    .continer{
+        width: 450px;
+        header{
+            width: 450px;
+        }
+        .matn{
+            width: 450px;
+              h1{
+                width: 357px;
+                font-size: 30px;
+                 }
+                h2{
+                    width: 357px;
+                    font-size: 27px;
+                 }
+                p{
+                width: 250px;
+                }
+                .bb{
+                    margin-left: -200px;
+                }
+                button{
+                    width: 100px;
+                    height: 30px;
+                    font-size: 10px;
+                }
+        }
+        main{
+            width: 100%;
+      .sec-1{
+        .tema{
+        width: 450px;
+        height: 100px;
+        margin-left: 0px;
+        h3{
+            font-size: 16px;
+        }
+        h2{
+            font-size: 20px;
+            color: #003459;
+        }
+        button{
+            display: none;
+             }
+             }
+            .cc{
+                width: 450px;
+                margin: 0px auto;
+                margin-left: 0px ;
+            }
+            .card{
+                width: 200px;
+                height: 320px;
+                margin: 0px auto;   
+                p{
+                width: 110px;
+                }
+                img{
+                    width: 169px;
+                    height: 169px;
+                    } 
+                 }  
+                .cecret {
+                    display: flex;
+                    justify-content: center;
+                    width: 450px;
+                    button{                            text-align: center;
+                    width: 90%;
+                    }
+                }
+            
+            }
+            .sec-2{
+            width: 450px;
+        }
+
+        }
+    }
+}

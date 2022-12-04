@@ -1,0 +1,46 @@
+header{
+    
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    .head{
+    margin:0px  100px ;
+  
+   
+    h1{
+        font-weight: 800;
+        font-size: 52px;
+        color: #003459;
+
+    }
+    h2{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    p{
+        width: 465px;
+     }
+     button{
+        width: 161px;
+        height: 48px;
+        color: $kok;
+        margin: 0px  10px 0px 0px;
+        font: size 16px; 
+        &-:nth-child(1){
+            background-color: #003459;
+        }
+     }
+    }
+}
+.head{
+    display: flex;
+    .matn{
+        width: 465px;
+        margin-top: 100px;
+        button{
+        margin-top: 20px;
+      
+
+    }
+    
+}
+
+}
